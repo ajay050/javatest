@@ -9,12 +9,13 @@ import lombok.Setter;
 
 import java.util.Objects;
 
+@Entity
 @Getter
 @Setter
 @Table(name="users")
 public class UserEntity {
     @Id
-    private long userId;
+    private userId;
     @Column(name="name")
     private String name;
     @Column(name="age")
